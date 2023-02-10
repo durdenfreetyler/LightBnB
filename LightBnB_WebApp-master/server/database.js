@@ -150,5 +150,21 @@ const addProperty = function(property) {
   property.id = propertyId;
   properties[propertyId] = property;
   return Promise.resolve(property);
+  // {
+  //   owner_id: int,
+  //   title: string,
+  //   description: string,
+  //   thumbnail_photo_url: string,
+  //   cover_photo_url: string,
+  //   cost_per_night: string,
+  //   street: string,
+  //   city: string,
+  //   province: string,
+  //   post_code: string,
+  //   country: string,
+  //   parking_spaces: int,
+  //   number_of_bathrooms: int,
+  //   number_of_bedrooms: int
+  // }
 }
 exports.addProperty = addProperty;
